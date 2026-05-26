@@ -1,7 +1,7 @@
 {
   "messageUrgent": "Demain : contrôle de maths pour 3A à 10h.",
-  "classes": ["3A", "3B"],
-  "teachers": ["Dupont", "Martin"],
+  "classes": ["TECH02"],
+  "teachers": ["GONSOLINVACHEZ"],
   "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
   "slots": [
     "08:00-09:00",
@@ -9,68 +9,23 @@
     "10:00-11:00",
     "11:00-12:00",
     "14:00-15:00",
-    "15:00-16:00"
+    "15:00-16:00",
+    "16:00-17:00",
+    "17:00-18:00"
   ],
   "courses": [
     {
-      "day": "Lundi",
-      "slot": "08:00-09:00",
-      "class": "3A",
-      "subject": "Maths",
-      "teacher": "Dupont",
-      "room": "101",
+      "day": "Mercredi",
+      "slot": "17:00-17:15",
+      "class": "TECH02",
+      "subject": "TECHNOLOGIE",
+      "teacher": "GONSOLIN VACHEZ",
+      "room": "chambre maxens",
       "status": "normal",
       "note": ""
     },
     {
-      "day": "Lundi",
-      "slot": "09:00-10:00",
-      "class": "3A",
-      "subject": "Français",
-      "teacher": "Martin",
-      "room": "102",
-      "status": "absent",
-      "note": "Prof absent"
-    },
-    {
-      "day": "Lundi",
-      "slot": "10:00-11:00",
-      "class": "3A",
-      "subject": "Histoire",
-      "teacher": "Dupont",
-      "room": "103",
-      "status": "cancelled",
-      "note": "Cours annulé"
-    },
-    {
-      "day": "Mardi",
-      "slot": "08:00-09:00",
-      "class": "3A",
-      "subject": "SVT",
-      "teacher": "Martin",
-      "room": "204",
-      "status": "moved",
-      "note": "Cours déplacé depuis Lundi 11h"
-    },
-    {
-      "day": "Mardi",
-      "slot": "09:00-10:00",
-      "class": "3A",
-      "subject": "Anglais",
-      "teacher": "Dupont",
-      "room": "305",
-      "status": "room-change",
-      "note": "Salle changée (ancienne : 201)"
-    },
-    {
-      "day": "Lundi",
-      "slot": "08:00-09:00",
-      "class": "3B",
-      "subject": "Physique",
-      "teacher": "Martin",
-      "room": "210",
-      "status": "normal",
-      "note": ""
+  
     }
   ]
 }
