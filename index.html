@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Emploi du temps - Lycée</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Emploi du temps</h1>
+    <div class="selectors">
+      <label>
+        Classe :
+        <select id="classSelect"></select>
+      </label>
+      <label>
+        Prof :
+        <select id="teacherSelect"></select>
+      </label>
+    </div>
+    <div class="legend">
+      <span class="badge normal">Normal</span>
+      <span class="badge absent">Prof absent</span>
+      <span class="badge cancelled">Cours annulé</span>
+      <span class="badge moved">Cours déplacé</span>
+      <span class="badge room-change">Salle changée</span>
+    </div>
+  </header>
+
+  <main>
+    <div id="messageUrgent" class="urgent hidden"></div>
+    <table id="timetable">
+      <thead>
+        <tr id="theadRow">
+          <th>Heure</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <small>EDT live – données mises à jour depuis <code>edt.json</code></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
